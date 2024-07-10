@@ -16,9 +16,11 @@ Android Application to fetch and display data.
 
 
 ### File Structure
+The file structure below only covers the main files in the project.
 ```
 fetch-receipt-processor/
 ├─ app/src/main/                            - Main source folder for the APP
+|    ├─ AndroidManifest.xml                 - App Metadata
 |    ├─ java/com/example/fetchlistapp       - Contains kotlin code for the application
 |      ├─ data/                             - Contains Data Classes
 |         ├─ ListGroup.kt                   - Data Class for Group of ListItems
@@ -41,6 +43,5 @@ fetch-receipt-processor/
 |         ├─ strings.xml                    - String Values
 |         ├─ themes.xml                     - Themes Values
 ├─ .gitattributes                           - Attributes Specification for git
-├─ dockerfile                               - Instructions to create docker container
 ├─ README.md                                - Documentation and general information about the project
 ```
