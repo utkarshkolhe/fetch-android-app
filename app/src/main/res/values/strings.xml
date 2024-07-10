@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Fetch List App</string>
+    <string name="data_url">https://fetch-hiring.s3.amazonaws.com/hiring.json</string>
+    <string name="sort_listid_asc">ListID: Low to High</string>
+    <string name="sort_listid_dsc">ListID: High to Low</string>
+    <string name="sort_name_asc">Name: A to Z</string>
+    <string name="sort_name_dsc">Name: Z to A</string>
+    <string name="error_fetchdata">There was an issue fetching data. Please check internet connection and network permission.</string>
+    <string name="error_parsingdata">There was an issue parsing data.</string>
+    <string name="search_hint">Search Items</string>
+    <string name="listid_desc">List ID:</string>
+    <string name="id_desc">ID:</string>
+    <string name="placeholder_listid">X</string>
+    <string name="placeholder_name">Item XXX</string>
+    <string name="placeholder_id">ID:XXX</string>
+
+</resources>
